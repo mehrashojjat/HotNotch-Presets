@@ -1,0 +1,118 @@
+{
+  "formatVersion" : 2,
+  "kind" : "selection-export",
+  "metadata" : {
+    "environment" : {
+      "osVersion" : "Version 27.0 (Build 26A5378j)",
+      "platform" : "macOS"
+    },
+    "exportedAt" : "2026-07-09T15:48:42Z",
+    "exportedBy" : {
+      "appBuild" : "1",
+      "appID" : "com.mehrashojjat.HotNotch",
+      "appName" : "HotNotch",
+      "appVersion" : "0.3"
+    },
+    "includedModes" : [
+      "launcher",
+      "shortcuts",
+      "swipeActions"
+    ],
+    "name" : "HotNotch Export",
+    "scopeKind" : "selection-export"
+  },
+  "scopes" : [
+    {
+      "activeMode" : "Swipe Actions",
+      "enabledModes" : [
+        "Swipe Actions"
+      ],
+      "launcher" : {
+        "items" : [
+          {
+            "id" : "A1980949-88FD-4EDF-A28A-41D10E790528",
+            "kind" : "folder",
+            "name" : "Applications",
+            "path" : "\/Applications"
+          },
+          {
+            "bundleID" : "com.apple.iCal",
+            "id" : "C4EF1014-77A3-41E4-8D97-045EA2913DAB",
+            "kind" : "app",
+            "name" : "Calendar",
+            "path" : "\/System\/Applications\/Calendar.app"
+          },
+          {
+            "bundleID" : "com.apple.Safari",
+            "id" : "7A99BF9F-FA05-4FB3-8002-CE02DBDD76B2",
+            "kind" : "app",
+            "name" : "Safari",
+            "path" : "\/System\/Volumes\/Preboot\/Cryptexes\/App\/System\/Applications\/Safari.app"
+          }
+        ],
+        "openTrigger" : "click"
+      },
+      "scopeKind" : "app",
+      "scopeLabel" : "Adobe Photoshop 2026",
+      "shortcuts" : {
+        "enterKeyCode" : 49,
+        "enterModifiers" : 1048576,
+        "leaveKeyCode" : 49,
+        "leaveModifiers" : 1048576
+      },
+      "swipeActions" : {
+        "perSetOverrides" : {
+          "1" : {
+            "leftKeyCode" : 33,
+            "leftModifiers" : 0,
+            "rightKeyCode" : 30,
+            "rightModifiers" : 0
+          },
+          "2" : {
+            "leftKeyCode" : 33,
+            "leftModifiers" : 524288,
+            "rightKeyCode" : 30,
+            "rightModifiers" : 524288
+          },
+          "3" : {
+            "leftKeyCode" : 33,
+            "leftModifiers" : 1048576,
+            "rightKeyCode" : 30,
+            "rightModifiers" : 1048576
+          }
+        },
+        "sets" : [
+          {
+            "id" : 1,
+            "leftKeyCode" : 6,
+            "leftModifiers" : 1048576,
+            "name" : "Brush size",
+            "rightKeyCode" : 6,
+            "rightModifiers" : 1179648,
+            "sensitivity" : 50
+          },
+          {
+            "id" : 2,
+            "leftKeyCode" : 6,
+            "leftModifiers" : 1048576,
+            "name" : "Layer selection",
+            "rightKeyCode" : 6,
+            "rightModifiers" : 1179648,
+            "sensitivity" : 50
+          },
+          {
+            "id" : 3,
+            "leftKeyCode" : 6,
+            "leftModifiers" : 1048576,
+            "name" : "Layer Order",
+            "rightKeyCode" : 6,
+            "rightModifiers" : 1179648,
+            "sensitivity" : 50
+          }
+        ]
+      },
+      "targetAppName" : "Adobe Photoshop 2026",
+      "targetBundleID" : "com.adobe.Photoshop"
+    }
+  ]
+}
